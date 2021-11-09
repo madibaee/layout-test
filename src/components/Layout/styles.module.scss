@@ -1,0 +1,32 @@
+.layout {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-gap: 0.5rem;
+  height: auto;
+  border: 1px solid #f9fafb;
+  min-height: calc(100vh - 7.5rem);
+  padding: 0.5rem;
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #f9fafb;
+    height: 100%;
+  }
+
+  &__XL {
+    grid-row-end: span 2;
+    grid-column-end: span 2;
+  }
+
+  &__L {
+    grid-row-end: span 1;
+    grid-column-end: span 2;
+  }
+
+  &__SM {
+    grid-row-end: span 1;
+    grid-column-end: span 1;
+  }
+}

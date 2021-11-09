@@ -1,0 +1,18 @@
+.app {
+  background-color: #282c34;
+  min-height: calc(100vh - 2.5rem);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 1.25rem;
+
+  &__header {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f9fafb;
+
+    > * {
+      margin-left: auto;
+    }
+  }
+}
